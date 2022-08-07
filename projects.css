@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #060917;
+    font-family: Montserrat, sans-serif;
+    color: #FFFFFF;
+    zoom: 90%;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    max-width: 85%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 50px;
+    margin-top: 5px;
+}
+
+nav h1{
+    font-size: 50px;
+    color: #7a8eff;
+}
+
+nav h1:hover{
+    color: #553FE6;
+    transition: color 1s;
+}
+
+.highlight{
+    border-bottom: 1px solid #7a8eff;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+nav h5{
+    
+    margin-top: 25px;
+}
+
+nav h5 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #a3b3d7;
+}
+
+nav h5 a:hover{
+    color: #7a8eff;
+    transition: color 0.5s;
+}
+
+img{
+    height: 50px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px auto;
+    margin-top: 125px;
+    row-gap: 100px;
+    margin-bottom: 200px;
+}
+
+.heading-1{
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: #a3b3d7;
+}
+
+.card-img{
+    background: #5d648b;
+    width: 410px;
+    height: 260px;
+}
+
+.card-img img{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 400px;
+    height: 250px;
+}
+
+.card-1{
+    margin-right: 110px;
+}  
+
+.card-2{
+    margin-right: 110px;
+}
+
+.btn{
+    margin-top: -40px;
+    margin-left: -50px;
+}
+
+.btn-1{
+    margin-left: 100px;
+    border: none;
+    text-decoration: none;
+    color: #060917;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.btn-img{
+    margin-top: 5px;
+}
+
+.link-img{
+    margin-left: 365px;
+    margin-top: -28px;
+}
+
+.link-img img{
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+.btn-2{
+    margin-left: 100px;
+    border: none;
+    text-decoration: none;
+    color: #060917;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.link-btn{
+    margin-top: -31px;
+    margin-left: 140px;
+}
+
+.videoo{
+    background: #5d648b;
+    width: 410px;
+    height: 260px;
+}
+
+.videoo video{
+    margin-top: -25px;
+    margin-left: 5px;
+    width: 400px;
+    height: 280px;
+}
+
+footer{
+    max-width: 50%;
+    margin: 70px auto 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lastlogo{
+   margin-top: -20px;
+   height: 35px;
+}
+
+footer h5{
+    font-size: 13px;
+}
+
+footer p{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.icons img{
+    height: 20px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1800px) {
+    body{
+        zoom: 85%;
+    }
+
+    .lastlogo{
+        margin-top: -20px;
+        margin-right: 30px;
+        height: 55px;
+     }
+     
+     footer h5{
+         font-size: 18px;
+         margin-right: 30px;
+     }
+     
+     footer p{
+         font-size: 18px;
+         font-weight: 700;
+         margin-right: 30px;
+     }
+     
+     .icons img{
+         height: 25px;
+         padding-right:50px;
+         cursor: pointer;
+     }
+}
+
+    @media screen and (max-width:1400px) {
+        body{
+            zoom: 80%;
+        }
+
+        .lastlogo{
+            margin-top: -20px;
+            margin-right: 30px;
+            height: 55px;
+         }
+         
+         footer h5{
+             font-size: 18px;
+             margin-right: 30px;
+         }
+         
+         footer p{
+             font-size: 18px;
+             font-weight: 700;
+             margin-right: 30px;
+         }
+         
+         .icons img{
+             height: 25px;
+             padding-right:50px;
+             cursor: pointer;
+         }
+    }
+
+    @media screen and (max-width:1300px) {
+        body{
+            zoom: 80%;
+        }
+
+        .lastlogo{
+            margin-top: -20px;
+            margin-right: 30px;
+            height: 55px;
+         }
+         
+         footer h5{
+             font-size: 18px;
+             margin-right: 30px;
+         }
+         
+         footer p{
+             font-size: 18px;
+             font-weight: 700;
+             margin-right: 30px;
+         }
+         
+         .icons img{
+             height: 25px;
+             padding-right:50px;
+             cursor: pointer;
+         }
+    }
+
+    @media screen and (max-width:1300px) and (min-width:1160px) {
+        body{
+            zoom: 70%;
+        }
+
+        .lastlogo{
+            margin-top: -20px;
+            margin-right: 30px;
+            height: 55px;
+         }
+         
+         footer h5{
+             font-size: 18px;
+             margin-right: 30px;
+         }
+         
+         footer p{
+             font-size: 18px;
+             font-weight: 700;
+             margin-right: 30px;
+         }
+         
+         .icons img{
+             height: 30px;
+             padding-right:50px;
+             cursor: pointer;
+         }
+
+
+    }
+
+    @media screen and (max-width:1160px) and (min-width:900px) {
+        body{
+            zoom: 60%;
+        }
+
+        nav h5 a{
+            font-size: 30px;
+        }
+
+        footer{
+            max-width: 80%;
+            margin: 70px auto 50px 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .lastlogo{
+           margin-top: -20px;
+           margin-right: 30px;
+           height: 55px;
+        }
+        
+        footer h5{
+            font-size: 18px;
+            margin-right: 30px;
+        }
+        
+        footer p{
+            font-size: 18px;
+            font-weight: 700;
+            margin-right: 30px;
+        }
+        
+        .icons img{
+            height: 30px;
+            padding-right:50px;
+            cursor: pointer;
+        }
+
+    }
+
+    @media screen and (max-width:900px) and (min-width:650px) {
+        body{
+            zoom: 60%;
+        }
+
+        nav h5 a{
+            font-size: 30px;
+            position: absolute;
+            right: -50px;
+        }
+
+        .main{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            margin: 0px 100px;
+            margin-top: 125px;
+            row-gap: 100px;
+            margin-bottom: 200px;
+            column-gap: 120px;
+        }
+
+        footer{
+            max-width: 80%;
+            margin: 70px auto 50px 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .lastlogo{
+           margin-top: -20px;
+           margin-right: 30px;
+           height: 55px;
+        }
+        
+        footer h5{
+            font-size: 18px;
+            margin-right: 30px;
+        }
+        
+        footer p{
+            font-size: 18px;
+            font-weight: 700;
+            margin-right: 30px;
+        }
+        
+        .icons img{
+            height: 30px;
+            padding-right:50px;
+            cursor: pointer;
+        }
+
+
+    }
+
+    @media screen and (max-width:650px) and (min-width:500px) {
+
+    
+        .main{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            margin: 0px 100px;
+            margin-top: 125px;
+            row-gap: 100px;
+            margin-bottom: 200px;
+            column-gap: 0px;
+        }
+
+        .logo img{
+            height: 80px;
+            margin-right: 100px;
+        }
+
+        nav h1{
+            margin-left: 230px;
+            text-align: center;
+        }
+
+        .highlight{
+            font-size: 40px;
+        }
+
+        nav h5 a{
+            margin-left: 300px;
+            font-size: 40px;
+        }
+
+        footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 140%;
+            max-width:max-content;
+            margin-left: 250px;
+        }
+
+    }
+
+    @media screen and (max-width:450px) and (min-width:390px) {
+
+        
+        .main{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-left:10px ;
+            margin-top: 65px;
+            row-gap: 100px;
+            margin-bottom: 125px;
+       
+        }
+
+        .logo img{
+            height: 50px;
+            margin-left:-20px;
+            margin-top: -20px;
+        }
+
+        nav h1{
+            font-size: 30px;
+            margin-left: -60px;
+            margin-top: -20px;
+        }
+
+        .highlight{
+            font-size: 25px;
+           
+        }
+
+        nav h5{
+            margin-top: -10px;
+          
+        }
+
+        nav h5 a{
+            font-size: 20px;
+            margin-left: -70px;
+            
+        }
+
+        footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 140%;
+            max-width:max-content;
+            margin-left: 50px;
+        }
+
+        .lastlogo{
+            margin-top: -20px;
+            margin-left: 0px;
+            height: 25px;
+         }
+         
+         footer h5{
+             font-size: 12px;
+             margin-left: -10px;
+             margin-top: -20px;
+         }
+         
+         footer p{
+             font-size: 12px;
+             font-weight: 700;
+             margin-left: -10px;
+             margin-top: -20px;
+         }
+         
+         .icons{
+            margin-top: -20px;
+         }
+
+         .icons img{
+             height: 10px;
+             padding-right:10px;
+             cursor: pointer;
+         }
+
+         .card-1{
+            margin-right: 0px;
+        }  
+        
+        .card-2{
+            margin-right: 0px;
+        }
+        
+
+    }
+
+    @media screen and (max-width:500px) and (min-width:450px) {
+
+        
+        .main{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-left:60px ;
+            margin-top: 65px;
+            row-gap: 100px;
+            margin-bottom: 125px;
+       
+        }
+
+        .logo img{
+            height: 50px;
+            margin-left:-20px;
+            margin-top: -20px;
+        }
+
+        nav h1{
+            font-size: 30px;
+            margin-left: -60px;
+            margin-top: -20px;
+        }
+
+        .highlight{
+            font-size: 25px;
+           
+        }
+
+        nav h5{
+            margin-top: -10px;
+          
+        }
+
+        nav h5 a{
+            font-size: 20px;
+            margin-left: -70px;
+            
+        }
+
+        footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 140%;
+            max-width:max-content;
+            margin-left: 100px;
+        }
+
+        .lastlogo{
+            margin-top: -20px;
+            margin-left: 0px;
+            height: 25px;
+         }
+         
+         footer h5{
+             font-size: 12px;
+             margin-left: -10px;
+             margin-top: -20px;
+         }
+         
+         footer p{
+             font-size: 12px;
+             font-weight: 700;
+             margin-left: -10px;
+             margin-top: -20px;
+         }
+         
+         .icons{
+            margin-top: -20px;
+         }
+
+         .icons img{
+             height: 15px;
+             padding-right:10px;
+             cursor: pointer;
+         }
+
+         .card-1{
+            margin-right: 0px;
+        }  
+        
+        .card-2{
+            margin-right: 0px;
+        }
+        
+
+    }
+
+    @media screen and (max-width:390px) and (min-width:250px) {
+
+
+        .main{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-left:10px ;
+            margin-top: 65px;
+            row-gap: 100px;
+            margin-bottom: 125px;
+       
+        }
+
+        .logo img{
+            height: 50px;
+            margin-left:-20px;
+            margin-top: -20px;
+        }
+
+        nav h1{
+            font-size: 30px;
+            margin-left: 120px;
+            margin-top: -20px;
+            text-align: center;
+        }
+        nav h5 a{
+            font-size: 20px;
+            margin-left: 100px;
+            
+        }
+
+        footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 140%;
+            max-width: max-content;
+            margin-left: 50px;
+        }
+
+        .lastlogo{
+            margin-top: -20px;
+            margin-left: 0px;
+            height: 25px;
+         }
+         
+         footer h5{
+             font-size: 12px;
+             margin-left: -10px;
+             margin-top: -20px;
+         }
+         
+         footer p{
+             font-size: 12px;
+             font-weight: 700;
+             margin-left: -10px;
+             margin-top: -20px;
+         }
+         
+         .icons{
+            margin-top: -20px;
+         }
+
+         .icons img{
+             height: 12px;
+             padding-right:10px;
+             cursor: pointer;
+         }
+
+         .card-1{
+            margin-right: 0px;
+        }  
+        
+        .card-2{
+            margin-right: 0px;
+        }
+
+
+
+
+    }
